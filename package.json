@@ -2,14 +2,18 @@
   "name": "masterinnodeproject",
   "version": "1.0.0",
   "description": "mast in node js with advance and standard practices",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon index"
   },
   "keywords": [
     "javascript",
     "backend"
   ],
   "author": "Akshay Vispute",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
 }
